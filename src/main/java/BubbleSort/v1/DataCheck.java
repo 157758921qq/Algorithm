@@ -1,6 +1,4 @@
-package BubbleSort;
-
-import SelectionSort.V2.SelectionSort;
+package BubbleSort.v1;
 
 import java.util.Arrays;
 import java.util.Random;

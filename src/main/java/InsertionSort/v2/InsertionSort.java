@@ -1,21 +1,19 @@
-package BubbleSort;
+package InsertionSort.v2;
 
-public class BubbleSort {
-
-
-    public static void sort() {
+public class InsertionSort {
+    public static void main(String[] args) {
         int[] a = {9,3,1,4,6,8,7,5,2};
         sort(a);
         print(a);
     }
 
     static void sort(int[] a){
-        for (int i=a.length-1; i>0; i--){
-            for (int j=0; j<i; j++){
-                if (a[j] > a[j+1]) swap(a, j, j+1);
+        for (int i=1; i<a.length; i++){
+            for (int j=i; j>0; j--){
+                if(a[j] < a[j-1])
+                    swap(a, j ,j-1);
             }
         }
-
     }
 
     static void swap(int[] a, int i, int j){
