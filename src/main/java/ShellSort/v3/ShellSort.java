@@ -1,4 +1,4 @@
-package ShellSort;
+package ShellSort.v3;
 
 public class ShellSort {
     public static void main(String[] args) {
