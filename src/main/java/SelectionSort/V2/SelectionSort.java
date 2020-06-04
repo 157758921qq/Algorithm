@@ -5,9 +5,7 @@ package SelectionSort.V2;
  */
 public class SelectionSort {
 
-    public static void main(String[] args) {
-        int[] arr = {5, 3, 6, 1, 9, 0, 12, 19, 2};
-
+    public static void sort(int[] arr) {
         //这里有个点，最后一位，直接
         for (int i = 0; i < arr.length - 1; i++) {
             int minPos = i;
